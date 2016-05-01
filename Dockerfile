@@ -34,6 +34,7 @@ RUN apt-get clean && apt-get update && \
         nickle \
         pkg-config \
         swig \
+        wget \
         xmlto \
         xsltproc && \
     rm -rf /var/lib/apt/lists/*
