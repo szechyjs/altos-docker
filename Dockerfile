@@ -21,8 +21,10 @@ RUN apt-get clean && apt-get update && \
         icoutils \
         make \
         netpbm \
-        libelf-dev \
         libbluetooth-dev \
+        libc6-dev-i386 \
+        libelf-dev \
+        lib32gcc-4.9-dev \
         libjfreechart-java \
         libncurses5-dev \
         libreadline-dev \
