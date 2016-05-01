@@ -15,6 +15,7 @@ RUN apt-get clean && apt-get update && \
         gcc-arm-none-eabi \
         gcc-mingw-w64-i686 \
         gcc-mingw-w64-x86-64 \
+        genisoimage \
         gettext \
         icnsutils \
         icoutils \
