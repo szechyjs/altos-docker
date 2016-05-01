@@ -22,6 +22,7 @@ RUN apt-get clean && apt-get update && \
         icoutils \
         make \
         netpbm \
+        nsis \
         libbluetooth-dev \
         libelf-dev \
         libjfreechart-java \
