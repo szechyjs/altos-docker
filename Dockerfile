@@ -41,5 +41,5 @@ RUN apt-get clean && apt-get update && \
 RUN dpkg --add-architecture i386 && apt-get update && \
     apt-get install -y --no-install-recommends \
         libc6-dev:i386 \
-        lib32gcc-4.9-dev \
+        lib32gcc-4.9-dev && \
     rm -rf /var/lib/apt/lists/*
