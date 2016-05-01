@@ -14,6 +14,7 @@ RUN apt-get clean && apt-get update && \
         gawk \
         gcc-arm-none-eabi \
         gcc-mingw-w64-i686 \
+        gcc-mingw-w64-x86-64 \
         gettext \
         make \
         netpbm \
