@@ -7,6 +7,7 @@ RUN apt-get clean && apt-get update && \
         autoconf \
         automake \
         avr-libc \
+        bzip2 \
         cc1111 \
         default-jdk \
         fop \
